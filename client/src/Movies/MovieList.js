@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {Link} from 'react-router-dom'
+//import {Link} from 'react-router-dom'
 import axios from 'axios';
 import MovieCard from './MovieCard'
 
@@ -50,7 +50,7 @@ function MovieDetails({ movie }) {
     //     ))}
     //   </div>
     // </Link>
-    <MovieCard />
+    <MovieCard movie= {movie}/>
   );
 }
 
